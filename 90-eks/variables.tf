@@ -1,17 +1,17 @@
 variable "project_name" {
-    default = "roboshop"
+  default = "roboshop"
 }
 
 variable "environment" {
-    default = "dev"
+  default = "dev"
 }
 
 variable "zone_id" {
-    default = "Z0948150OFPSYTNVYZOY"
+  default = "Z00483002KQGHYINL2NKX"
 }
 
 variable "domain_name" {
-    default = "daws86s.fun"
+  default = "bandarusuresh.in"
 }
 
 variable "eks_version" {
@@ -26,10 +26,10 @@ variable "eks_nodegroup_green_version" {
 
 }
 
-variable enable_blue {
+variable "enable_blue" {
 
 }
 
-variable enable_green {
-    
+variable "enable_green" {
+
 }
